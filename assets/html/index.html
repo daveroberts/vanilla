@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Test</title>
+    {{#css}}
+      <link href="{{{.}}}" rel="stylsheet" type="text/css">
+    {{/css}}
+  </head>
+  <body>
+    Hello
+    {{#js}}
+      <script src="{{{.}}}"></script>
+    {{/js}}
+  </body>
+</html>
